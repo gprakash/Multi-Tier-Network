@@ -1,0 +1,4 @@
+LocationId,LocationType,ItemGovSystem,ItemNumber,ItemIndicator,ItemChangeLevel,AnnualForecast
+TOY1,PLT,SAP1,Machine1,Finished,0,22
+TOY2,PLT,SAP1,Machine2,Finished,0,71
+TOY3,PLT,SAP2,Machine1,Finished,0,3
