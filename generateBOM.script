@@ -1,0 +1,3 @@
+match (x:ItemLocation)-[:CONTAINS*]->(y:ItemLocation) where x.itemLocationKey = 'TOY2:PLT:SAP1:Machine2:Finished:0'
+match (parent:ItemLocation)-[r:CONTAINS]->(y:ItemLocation)
+return parent.itemLocationKey, y.itemLocationKey, r.quantity, r.suppliersplitpercent;
