@@ -1,0 +1,4 @@
+match p=(child:ItemLocation)<-[:CONTAINS*]-(top:ItemLocation) where child.itemLocationKey contains 'SUP1' and child.itemLocationKey contains 'Engine'
+return reduce(Lineage = '', x in nodes(p)| Lineage + '<-' +  x.itemLocationKey) as Lineage, 
+reduce(LineageQty = 1, y in relationships(p)| LineageQty *  toInteger(y.quantity)) as LineageQty,
+child.itemLocationKey as child, top.itemLocationKey as parent
