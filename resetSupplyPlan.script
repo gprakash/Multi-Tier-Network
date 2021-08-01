@@ -1,0 +1,4 @@
+LOAD CSV with headers FROM 'https://raw.githubusercontent.com/gprakash/data/main/forecasts.csv' AS line
+match p=(productLocation:ItemLocation {itemLocationKey: line.locationId + ':' + line.locationType + ':' + line.itemGovSystem + ':' + line.itemNumber + ':' + line.itemIndicator + ':' + line.itemChangeLevel})-[:CONTAINS*]->(y:ItemLocation) where productLocation.itemLocationKey contains ':PLT'
+set y.forecast = 0
+return reduce (lineage = '', x in nodes(p) | lineage + '->' + x.itemLocationKey) as Lineage, y.itemLocationKey, y.forecast, productLocation.forecast
