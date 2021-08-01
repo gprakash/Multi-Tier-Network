@@ -1,5 +1,5 @@
 LOAD CSV with headers FROM 'https://raw.githubusercontent.com/gprakash/data/main/forecasts.csv' AS line
-match (productLocation:ItemLocation {itemLocationKey: line.locationId + ':' + line.locationType + ':' + line.itemGovSystem + ':' + line.itemNumber + ':' + line.itemIndicator + ':' + line.itemChangeLevel})
-set productLocation.forecast = line.annualForecast
-
+match p=(productLocation:ItemLocation {itemLocationKey: line.locationId + ':' + line.locationType + ':' + line.itemGovSystem + ':' + line.itemNumber + ':' + line.itemIndicator + ':' + line.itemChangeLevel})-[:CONTAINS*]->(y:ItemLocation) 
+with reduce (forecast = productLocation.forecast, r in relations(p) | forecast * r.quantity * r.suppliersplitpercent) as forecast
+set y.forecast = forecast
 return count(*);
