@@ -1,0 +1,3 @@
+match p=(child:ItemLocation) where child.itemLocationKey contains ':SUP'
+return 
+child.itemLocationKey as child,  child.forecast
