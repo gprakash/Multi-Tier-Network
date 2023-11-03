@@ -1,0 +1,17 @@
+parentLocationId,parentLocationType,parentItemGovSystem,parentItemNumber,parentItemIndicator,parentItemChangeLevel,childItemGovSystem,childItemNumber,childItemIndicator,childItemChangeLevel,childLocationId,childLocationType,childLocationSplitPercent,childQuantity
+DC1,StoresDC,SAP1,BodyBra,Finished,0,SAP1,Fabric,Raw,1,VietSupp,Supp,1,1
+DC1,StoresDC,SAP1,BodyBra,Finished,0,SAP1,Underwire,Raw,1,VietSupp,Supp,1,1
+DC1,StoresDC,SAP1,LoveCloudPanties,Finished,0,SAP1,waistband,Raw,1,MalaySupp,Supp,1,1
+DC1,StoresDC,SAP1,LoveCloudPanties,Finished,0,SAP1,Fabric,Raw,1,VietSupp,Supp,1,1
+DC1,StoresDC,SAP1,SportsBra,Finished,0,SAP1,Fabric,Raw,2,BrazilSupp,Supp,1,1
+DC1,StoresDC,SAP1,SportsBra,Finished,0,SAP1,Underwire,Raw,1,MalaySupp,Supp,1,1
+DC2,DirectDC,SAP1,BodyBra,Finished,0,SAP1,Fabric,Raw,1,VietSupp,Supp,1,1
+DC2,DirectDC,SAP1,BodyBra,Finished,0,SAP1,Underwire,Raw,2,VietSupp,Supp,1,1
+DC2,DirectDC,SAP1,LoveCloudPanties,Finished,0,SAP1,waistband,Raw,1,MalaySupp,Supp,1,1
+DC2,DirectDC,SAP1,LoveCloudPanties,Finished,0,SAP1,Fabric,Raw,1,VietSupp,Supp,1,1
+DC3,XDock,SAP2,Totebag,Finished,0,SAP2,LeatherBag,Raw,1,Guduvan,Supp,1,1
+DC3,XDock,SAP2,Totebag,Finished,0,SAP2,Packaging,Raw,2,Guduvan,Supp,1,1
+BrazilSupp,Supp,,Fabric,Raw,2,,Spandex,Raw,1,ChinaSupp,Supp,1,1
+BrazilSupp,Supp,,Fabric,Raw,2,,Cups,Raw,1,ChinaSupp,Supp,1,2
+VietSupp,Supp,,Fabric,Raw,1,,Spandex,Raw,1,ChinaSupp,Supp,1,1
+VietSupp,Supp,,Fabric,Raw,1,,Cups,Raw,1,ChinaSupp,Supp,1,2
