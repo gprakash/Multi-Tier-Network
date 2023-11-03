@@ -1,0 +1,13 @@
+itemGovSystem,itemNumber,itemIndicator,itemChangeLevel,itemDescription
+SAP1,BodyBra,Finished,0,Body Collections
+SAP1,LoveCloudPanties,Finished,0,Love Cloud Collections
+SAP1,SportsBra,Finished,0,Sports
+SAP2,Totebag,Finished,0,Beauty Accessories
+SAP1,Fabric,Raw,1,Tier 2 Material
+SAP1,Underwire,Raw,1,Tier 2 Material
+SAP1,waistband,Raw,1,Tier 2 Material
+SAP1,Underwire,Raw,2,Tier 2 Material
+SAP2,LeatherBag,Raw,1,Tier 2 Material
+SAP2,Packaging,Raw,2,Tier 2 Material
+SAP1,Spandex,Raw,1,Tier 3 Material
+SAP1,Cups,Raw,1,Tier 3 Material
