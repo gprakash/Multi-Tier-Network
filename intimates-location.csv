@@ -2,8 +2,8 @@ locationId,locationType,locationERP,locationDescription,locationLatitude,locatio
 DC1,StoresDC,SAP1,StoresDC,34.38,-88.89,"Reynoldsburg, OH, 43068"
 DC2,DirectDC,SAP1,DirectDC,38.59,-81.99,"Reynoldsburg, OH, 43068"
 DC3,XDock,SAP2,XDock,38.26,-84.53,"Los Angeles, CA, 90048"
-VietSupp,Supp,,Top Fabric,22.64,-100.76,Viet Address
-MalaySupp,Supp,,AllWaistBands,40.44,-81.76,Malay Address
-BrazilSupp,Supp,,Stretch Fabrics,36.78,-119.93,Brazil Address
-Guduvan,Supp,,Leather & Packaging,47.6,-122.33,India Address
-ChinaSupp,Supp,,Spandex&Cups,23.22,56.33,China Address
+VietSupp,Supp,SAP1,Top Fabric,22.64,-100.76,Viet Address
+MalaySupp,Supp,SAP1,AllWaistBands,40.44,-81.76,Malay Address
+BrazilSupp,Supp,SAP1,Stretch Fabrics,36.78,-119.93,Brazil Address
+Guduvan,Supp,SAP2,Leather & Packaging,47.6,-122.33,India Address
+ChinaSupp,Supp,SAP1,Spandex&Cups,23.22,56.33,China Address
