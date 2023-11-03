@@ -1,0 +1,17 @@
+locationId,locationType,itemGovSystem,itemNumber,itemIndicator,itemChangeLevel,itemLocationDescription
+DC1,StoresDC,SAP1,BodyBra,Finished,0,BodyBra
+DC1,StoresDC,SAP1,LoveCloudPanties,Finished,0,LoveCloudPanties
+DC1,StoresDC,SAP1,SportsBra,Finished,0,SportsBra
+DC2,DirectDC,SAP1,BodyBra,Finished,0,BodyBra
+DC2,DirectDC,SAP1,LoveCloudPanties,Finished,0,LoveCloudPanties
+DC3,XDock,SAP2,Totebag,Finished,0,Totebag
+BrazilSupp,Supp,SAP1,Fabric,Raw,2,HiQ Fabroc
+VietSupp,Supp,SAP1,Fabric,Raw,1,Regular Fabric
+VietSupp,Supp,SAP1,Underwire,Raw,1,Regular UW
+VietSupp,Supp,SAP1,Underwire,Raw,2,HiQ UW
+MalaySupp,Supp,SAP1,Underwire,Raw,1,Regular UW
+MalaySupp,Supp,SAP1,waistband,Raw,1,Regular Waistband
+Guduvan,Supp,SAP2,LeatherBag,Raw,1,Regular bag
+Guduvan,Supp,SAP2,Packaging,Raw,2,HiQ Packaging
+ChinaSupp,Supp,SAP1,Spandex,Raw,1,Regular Spandex
+ChinaSupp,Supp,SAP1,Cups,Raw,1,Regular cups
