@@ -1,0 +1,7 @@
+locationId,locationType,itemGovSystem,itemNumber,itemIndicator,itemChangeLevel,annualForecast
+DC3,XDock,SAP2,Totebag,Finished,0,90
+DC2,DirectDC,SAP1,LoveCloudPanties,Finished,0,45
+DC2,DirectDC,SAP1,BodyBra,Finished,0,34
+DC1,StoresDC,SAP1,BodyBra,Finished,0,23
+DC1,StoresDC,SAP1,SportsBra,Finished,0,67
+DC1,StoresDC,SAP1,LoveCloudPanties,Finished,0,33
