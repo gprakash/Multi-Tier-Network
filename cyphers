@@ -1,0 +1,11 @@
+#BOM for Totebag
+match (x:ItemLocation)-[:CONTAINS*]->(y:ItemLocation) where x.itemLocationKey = 'DC3:XDock:SAP2:Totebag:Finished:0'
+match (parent:ItemLocation)-[r:CONTAINS]->(y:ItemLocation)
+return parent.itemLocationKey, y.itemLocationKey, r.quantity, r.suppliersplitpercent;
+
+
+# BOM for BodyBra
+match p = (x:ItemLocation)-[:CONTAINS*]->(y:ItemLocation) where x.itemLocationKey = 'DC2:DirectDC:SAP1:BodyBra:Finished:0'
+match q=(x)-[:MADE_AT]->(a)
+match r=(y)-[:MADE_AT]->(b)
+return p, q, r
